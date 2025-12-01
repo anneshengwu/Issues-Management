@@ -13,38 +13,27 @@ _Take control of your workflow with powerful search filters, saved queries, and 
 
 </header>
 
-# Step 1: Master Basic Search Syntax
-GitHub's issue search is powerful but only if you know how to use it. Let's learn the essential search operators.
+## Step 2: Use Dynamic Filters to Navigate Issues Efficiently
 
-## 📝 Core Search Operators
-Search operators help you narrow down exactly what you're looking for:
+GitHub offers powerful search capabilities directly in the Issues interface. You can use dynamic filters to quickly find and manage what matters most.
 
-- `is:issue` - Find only issues (not pull requests)
-- `is:open` or `is:closed` - Filter by status
-- `repo:username/repository` - Search within a specific repository
-- `label:bug` - Find issues with specific labels
-- `assignee:username` - Find issues assigned to specific users
-- `author:username` - Find issues created by specific users
-- `mentions:username` - Find issues that mention specific users
-- `milestone:"Version 1.0"` - Find issues within a specific milestone
-- `created:>2023-01-01` - Find issues created after a certain date
-- `updated:<2023-01-01` - Find issues updated before a certain date
-- `no:assignee` - Find issues with no assignee
-- `no:label` - Find issues with no labels
+### :keyboard: Task: Navigating Filters 🧭
 
-## :keyboard: Task: Create an Issue
+- Use dropdowns at the top of the Issues page (Labels, Milestones, Assignees, etc.) to build queries visually.
+- Use keyboard shortcuts:  
+  Press `/` on the Issues page to jump to the filter bar instantly.
 
-1. Navigate to the Issues tab in your repository
-2. Click on create new Issue
-3. Make sure to label to issue as a bug and assign it to yourself
+### 📁 Optional: Organize Work with GitHub Projects
 
-## :keyboard: Task: Create Your First Advanced Search
+For a more visual and persistent workflow, consider setting up **GitHub Projects**:
 
-1. Navigate to the Issues tab in your repository
-2. Click on the search bar at the top of the Issues page
-3. Type `is:open label:bug assignee:@me` and press Enter
-     - You have now filtered with Advanced Searches
-4. Comment "search-created" on this issue when complete
+- Create views like _"My Tasks"_, _"Recently Updated"_, or _"Needs Help"_
+- Use built-in filters and grouping options
+- Easily manage issues across multiple repositories
+
+Comment "filters-created" when you've finished the tasks to move onto the next step!
+
+---
 
 <footer>
 
